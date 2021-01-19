@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Canvas Class</title>
+</head>
+<body>
+	<center>
+<div width: 400px; height: 420px; style="border: 0px solid black; height: ">
+<canvas id="canvass" style=" background: orange; border: 3px solid grey;" width="400" height="400">
+	
+</canvas>
+</div>
+</center>
+</body>
+<script type="text/javascript">
+	var cav = document.getElementById("canvass");
+	var rel = cav.getContext("2d");
+	
+	
+	rel.moveTo(175, 5);
+	rel.lineTo(345, 200);
+	rel.stroke();
+    
+    rel.moveTo(300, 150);
+	rel.lineTo(300, 350);
+	rel.stroke();
+
+	rel.moveTo(80, 150);
+	rel.lineTo(80, 350);
+	rel.stroke();
+
+	rel.moveTo(200, 5);
+	rel.lineTo(37,200);
+	rel.stroke();
+
+	rel.moveTo(30, 200);
+	rel.lineTo(350,200);
+	rel.stroke();
+
+	rel.moveTo(90, 250);
+	rel.lineTo(140,250);
+	rel.stroke();
+
+	rel.moveTo(290, 250);
+	rel.lineTo(240,250);
+	rel.stroke();
+
+	rel.moveTo(90, 200);
+	rel.lineTo(90,250);
+	rel.stroke();
+	
+	rel.moveTo(140, 200);
+	rel.lineTo(140,250);
+	rel.stroke();
+
+	rel.moveTo(240, 250);
+	rel.lineTo(240, 200);
+	rel.stroke();
+
+	rel.moveTo(290, 200);
+	rel.lineTo(290,250);
+	rel.stroke();
+
+	rel.moveTo(230, 280);
+	rel.lineTo(230,350);
+	rel.stroke();
+
+	rel.moveTo(160, 280);
+	rel.lineTo(160,350);
+	rel.stroke();
+
+	rel.moveTo(160, 280);
+	rel.lineTo(230,280);
+	rel.stroke();
+	
+	// rel.moveTo(190, 120);
+	// rel.lineTo(40,250);
+	// rel.stroke();
+	
+
+
+	
+
+	rel.moveTo(80, 350);
+	rel.lineTo(300,350);
+	rel.stroke();
+
+	
+	
+	
+	rel.beginPath();
+	rel.arc(190, 120, 50, 0, 2*Math.PI);
+	rel.stroke();
+
+	
+	// rel.moveTo(150, 200);
+	// rel.lineTo(150, 5);
+	// rel.lineTo(200,5);
+	// rel.lineTo(200, 200);
+	// rel.lineTo(150, 200);
+	// rel.strokeStyle="blue";
+	// rel.stroke();
+
+	// ral.fillStyle = "white";
+	// ral.fillRect(10,5,100,200);
+
+	// rel.fill();
+
+	// rel.beginPath();
+	// rel.arc(200,200,100,0,2*Math.PI);
+	// rel.stroke();
+
+	// rel.beginPath();
+	// rel.arc(200,200,100,0,2*Math.PI);
+	// rel.stroke();
+
+	// function draw(a,b,c,d, color="blue")
+	// {
+	// 	rel.beginPath();
+	// 	rel.fillStyle = color;
+	// 	rel.fillRect(a,b,c,d);
+	// 	// rel.fillText(color, a+c=10, b+c=)
+	// 	rel.closePath();
+	// }
+	// draw(10,200,50,40, "yellow");
+	// draw(10,200,50,40, "yellow");
+	// draw(10,200,50,40, "yellow");
+	// draw(10,200,50,40, "yellow");
+
+
+
+	// function draw(a,b,c,d, color="blue")
+	// {
+	// 	rel.beginPath();
+	// 	rel.fillStyle = color;
+	// 	rel.fillRect(a,b,c,d);
+	// 	// rel.fillText(color, a+c=10, b+c=)
+	// 	rel.closePath();
+	// }
+	// draw(100,200,200,150, "yellow");
+	// draw(50,100,300,150, "yellow");
+	// //draw(100,200,50,40, "yellow");
+	// //draw(200,200,50,40, "yellow");
+
+
+
+
+
+
+
+
+
+
+	// function  tellX(event)
+	// {
+	// 		var monitorY = event.offsetX;
+	// 		var monitorX = event.offsetY;
+	// }
+	// function  tellY(event)
+	// {
+	// 		var monitorY = event.offsetX;
+	// 		var monitorX = event.offsetY;
+	// 		console.log(' x is ' + monitorX + "and the y is" + monitorY);
+	// }
+	 // onmousedown="tellX(event)" onmouseup="tellY(event)"
+</script>
+</html>
